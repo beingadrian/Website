@@ -1,0 +1,36 @@
+// _footer.scss
+
+@import "../settings/_fonts.scss";
+@import "../settings/_layout.scss";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  font-family: $font-family-default;
+  font-size: 10pt;
+  text-align: center;
+}
+
+// media queries
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* portrait phones */
+  .footer {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 8pt;
+  }
+
+}

@@ -1,0 +1,10 @@
+// fonts.scss
+
+$font-family-default: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin font-section-title {
+  font-family: $font-family-default;
+  font-size: 40pt;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}

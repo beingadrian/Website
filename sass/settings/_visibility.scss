@@ -1,0 +1,10 @@
+// visibility.scss
+
+.visible {
+  &-fade-in {
+    opacity: 0;
+  }
+  &-fade-in-delayed {
+    opacity: 0;
+  }
+}

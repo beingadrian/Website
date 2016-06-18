@@ -1,0 +1,105 @@
+/* line 6, ../../sass/sections/landing.scss */
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 12, ../../sass/sections/landing.scss */
+.landing-title {
+  display: inline;
+  font-size: 70pt;
+  font-weight: 500;
+  text-align: center;
+  color: #292a2a;
+}
+/* line 19, ../../sass/sections/landing.scss */
+.landing-subtitle {
+  margin-top: 20px;
+  font-size: 18pt;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #828587;
+}
+/* line 27, ../../sass/sections/landing.scss */
+.landing-down-arrow {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 5%;
+  width: 60px;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  transition: bottom 0.5s;
+}
+/* line 37, ../../sass/sections/landing.scss */
+.landing-down-arrow:hover {
+  bottom: 4%;
+}
+/* line 41, ../../sass/sections/landing.scss */
+.landing-fade-in {
+  opacity: 0;
+  animation: fade-in 1.0s;
+  animation-delay: 2.0s;
+  animation-fill-mode: forwards;
+  -webkit-animation: fade-in 1.0s;
+  -webkit-animation-delay: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation: fade-in 1.0s;
+  -moz-animation-delay: 2.5s;
+  -moz-animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  /* line 79, ../../sass/sections/landing.scss */
+  .landing-title {
+    font-size: 34pt;
+  }
+  /* line 82, ../../sass/sections/landing.scss */
+  .landing-subtitle {
+    font-size: 18pt;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* portrait phones */
+  /* line 92, ../../sass/sections/landing.scss */
+  .landing-title {
+    font-size: 24pt;
+  }
+  /* line 95, ../../sass/sections/landing.scss */
+  .landing-subtitle {
+    font-size: 14pt;
+  }
+}
