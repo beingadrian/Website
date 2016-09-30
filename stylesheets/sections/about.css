@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   max-width: 960px;
   height: 100%;
 }
@@ -82,7 +82,7 @@
   /* tablets and desktop */
   /* line 82, ../../sass/sections/about.scss */
   .about-container {
-    max-width: 1024px;
+    max-width: 80%;
   }
 }
 @media only screen and (max-width: 767px) {

@@ -13,7 +13,7 @@
   &-container {
     @include flex-center;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     max-width: 960px;
     height: 100%;
   }
@@ -80,7 +80,7 @@
   /* tablets and desktop */
   .about {
     &-container {
-      max-width: 1024px;
+      max-width: 80%;
     }
   }
 
